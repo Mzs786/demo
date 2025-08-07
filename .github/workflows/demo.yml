@@ -1,1 +1,13 @@
+name:Greeting
 
+on:
+  push:
+    branches:[main]
+
+jobs:
+  demo:Hello-world
+  runs-on:ubuntu-latest
+
+  steps:
+    -name:zubair
+     run:echo "Hello World!"
